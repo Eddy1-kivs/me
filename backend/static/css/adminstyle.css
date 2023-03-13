@@ -1,0 +1,296 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 0.875rem;
+    font-family: "Roboto","Lucida Grande","DejaVu Sans","Bitstream Vera Sans",Verdana,Arial,sans-serif;
+    color: white;
+    background: #17263C;
+}
+#header {
+    background: #000;
+    color: #fff;
+}
+
+#branding h1 {
+color: #fff;
+}
+
+div.breadcrumbs {
+background: #2D0F31;
+}
+
+.login.submit-row {
+
+}
+.button,
+input[type="submit"],
+input[type="button"],
+.submit-row input,
+a.button {
+    background: #000;
+    /*width: 100%;*/
+}
+
+
+.module h2,
+.module caption,
+.inline-group h2{
+background: #000;
+}
+
+a:link, a:visited {
+    color: #0095ce;
+    text-decoration: none;
+    transition: color 0.15s, background 0.15s;
+}
+
+h1 {
+    margin: 0 0 20px;
+    font-weight: 300;
+    font-size: 1.25rem;
+    color: #FFFFFF;
+}
+
+.object-tools a:link, .object-tools a:visited {
+    display: block;
+    float: left;
+    padding: 3px 12px;
+    background: #2D0F31;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 0.6875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+#changelist .actions {
+    padding: 10px;
+    background: var(--body-bg);
+    border-top: none;
+    border-bottom: none;
+    line-height: 24px;
+    color: #000000;
+    width: 100%;
+}
+
+#changelist .actions .button {
+    font-size: 0.8125rem;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    background: #2D0F31;
+    box-shadow: 0 -15px 20px -10px rgb(0 0 0 / 15%) inset;
+    cursor: pointer;
+    height: 24px;
+    line-height: 1;
+    padding: 4px 8px;
+    margin: 0;
+    color: #000000;
+}
+
+
+
+#content-related {
+    background: #000000;
+}
+
+#content-related .module h2 {
+    padding: 10px 15px;
+    font-size: 1rem;
+    color: #FFFFFF;
+}
+
+h2{
+    color: blue;
+}
+
+
+.quiet, a.quiet:link, a.quiet:visited {
+    color: #FFFFFF;
+    font-weight: normal;
+}
+
+#content-related h3 {
+    color: #4bff31;
+    padding: 0 16px;
+    margin: 0 0 16px;
+}
+
+td, th {
+    font-size: 0.8125rem;
+    line-height: 16px;
+    border-bottom: 1px solid var(--hairline-color);
+    vertical-align: top;
+    padding: 8px;
+    background: #0f0039;
+    color: white;
+}
+
+.toggle-nav-sidebar {
+    z-index: 20;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 23px;
+    width: 23px;
+    border: 0;
+    border-right: 1px solid var(--hairline-color);
+    background-color: #0f0039;
+    cursor: pointer;
+    font-size: 1.25rem;
+    color: var(--link-fg);
+    padding: 0;
+}
+
+.toggle-nav-sidebar:hover, .toggle-nav-sidebar:focus {
+    background-color: #000000;
+}
+#nav-sidebar {
+    z-index: 15;
+    flex: 0 0 275px;
+    left: -276px;
+    margin-left: -276px;
+    border-top: 1px solid transparent;
+    border-right: 1px solid var(--hairline-color);
+    background-color: #2D0F31;
+    overflow: auto;
+}
+
+thead th {
+    padding: 5px 10px;
+    line-height: normal;
+    text-transform: uppercase;
+    background: #0f0039;
+    color: #FFFFFF;
+}
+
+table thead th .text span {
+    padding: 8px 10px;
+    display: block;
+    color: #FFFFFF;
+}
+
+#changelist .paginator {
+    color: var(--body-quiet-color);
+    border-bottom: 1px solid var(--hairline-color);
+    background: black;
+    overflow: hidden;
+}
+#changelist .results + .paginator {
+    margin-top: 20px;
+    border-top: none;
+    background: #0f0039;
+    color: #FFFFFF;
+}
+
+#changelist table tbody tr.selected {
+    background-color: #0f0039;
+}
+
+
+p {
+    padding: 0;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+ul{
+    color: #FFFFFF;
+}
+
+.paginator {
+    font-size: 0.8125rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 22px;
+    margin: 0;
+    border-top: 1px solid var(--hairline-color);
+    width: 100%;
+    background: #0f0039;
+}
+
+#changelist .actions .button {
+    font-size: 0.8125rem;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    background: black;
+    box-shadow: 0 -15px 20px -10px rgba(0, 0, 0, 0.15) inset;
+    cursor: pointer;
+    height: 24px;
+    line-height: 1;
+    padding: 4px 8px;
+    margin: 0;
+    color: var(--body-fg);
+}
+
+.form-row {
+    overflow: hidden;
+    padding: 10px;
+    font-size: 0.8125rem;
+    border-bottom: 1px solid var(--hairline-color);
+    color: white;
+}
+.aligned label {
+    display: block;
+    padding: 4px 10px 0 0;
+    float: left;
+    width: 160px;
+    word-wrap: break-word;
+    line-height: 1;
+    color: #FFFFFF;
+}
+
+label {
+    font-weight: normal;
+    color: white;
+    font-size: 0.8125rem;
+}
+
+label {
+    font-weight: normal;
+    color: white;
+    font-size: 0.8125rem;
+}
+
+.required label, label.required {
+    font-weight: bold;
+    color: green;
+}
+
+.aligned label:not(.vCheckboxLabel):after {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    height: 26px;
+    color: green
+}
+
+.submit-row {
+    padding: 12px 14px 7px;
+    margin: 0 0 20px;
+    border-radius: 4px;
+    text-align: right;
+    overflow: hidden;
+}
+.module {
+    border: none;
+    margin-bottom: 30px;
+    background: #000;
+}
+
+#changelist-filter {
+    flex: 0 0 240px;
+    order: 1;
+    background: #00042f;
+    border-left: none;
+    margin: 0 0 0 30px;
+}
+
+.login {
+    background: black;
+    height: auto;
+}
+
+.module. #changelist-form.actions.button {
+    background: #2D0F31;
+}
